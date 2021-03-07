@@ -1,0 +1,143 @@
+html {
+    background-color: #181818;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    max-width: 1098px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.header-item {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
+}
+
+.menu-list li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
+}
+
+.header-menu {
+    background: none;
+    border: none;
+    display: none;
+}
+
+.btn-wborder-style {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 10px 40px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.start-page-item {
+    display: flex;
+    justify-content: center;
+    padding: 116px 0 56px 0;
+}
+
+@media (max-width: 425px) {
+    .start-page-item .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.btn-wborder-style-2 {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 25px 56px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-bluebg-style {
+    margin-right: 20px;
+    color: white;
+    font-size: 17px;
+    padding: 25px 56px;
+    border: 1px solid #4452FE;
+    background: #4452FE;
+}
+
+.bg-image {
+    display: block;
+    background: url("./images/start_page_bg.png") no-repeat;
+    background-size: contain;
+    max-width: 1000px;
+    height: 840px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .menu-list {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-menu {
+        display: inline-block;
+        height: 28px;
+    }
+}
+
+.big-text {
+    color: white;
+    font-style: normal;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    height: 176px;
+    width: 660px;
+    margin: auto;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    line-height: 88px;
+}
+
+
+/*
+//styleName: Sub Heading;
+font-family: Graphik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+*/
+
+.small-text {
+    color: white;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 542px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
