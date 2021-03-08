@@ -69,6 +69,18 @@ html {
     font-weight: 500;
 }
 
+.btn-wborder-style-3 {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 25px 56px;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 .btn-bluebg-style {
     margin-right: 20px;
     color: white;
@@ -291,4 +303,51 @@ html {
     margin: 0 auto;
     width: 148px;
     height: 52px;
+}
+
+.gallery {
+    margin-left: 825px;
+    margin-top: 180px;
+    max-width: 1200px;
+}
+
+.gallery-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    margin-bottom: 50px;
+}
+
+.gallery-elem {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.gallery-photo {
+    background: none;
+}
+
+.partners {
+    margin-top: 180px;
+}
+
+.partners-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.partners-icon {
+    background: none;
+}
+
+.partners-icon-elem {
+    margin-left: 80px;
 }
