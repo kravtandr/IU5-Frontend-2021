@@ -351,3 +351,152 @@ html {
 .partners-icon-elem {
     margin-left: 80px;
 }
+
+.testimonials {
+    margin-top: 180px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 906px;
+}
+
+.testimonials-container-elem {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    border-radius: 10px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.testimonials-container-elem-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.testimonials-container-elem-content {
+    width: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.t-header {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 25px;
+}
+
+.prefooter {
+    margin-top: 180px;
+}
+
+.prefooter-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    max-width: 1200px;
+    color: white;
+    border: 1px solid #343434;
+    border-radius: 33px;
+    background-color: #343434;
+}
+
+.prefooter-container-elem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 480px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.prf-big-text {
+    color: white;
+    font-style: normal;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.btn-bluebg-prf {
+    color: white;
+    font-size: 17px;
+    border: 1px solid #4452FE;
+    background: #4452FE;
+    width: 148px;
+    height: 52px;
+}
+
+.footer {
+    margin-top: 180px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer-container-elem {
+    width: 102px;
+    margin-left: 140px;
+}
+
+.footer-container-elem-2 {
+    width: 300px;
+    margin-left: 140px;
+}
+
+.footer-elem-2-header {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.footer-header {
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.f2-image {
+    margin-right: 30px;
+}
+
+.f1-image {}
